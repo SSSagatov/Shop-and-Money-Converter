@@ -7,7 +7,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from database.market import init_db, add_products
 
 
-bot = telebot.TeleBot('7952118510:AAFfPnO9-HFYeMOqzv4j0TBtbuMXSieh8Iw')
+bot = telebot.TeleBot('API_KEY')
 init_db()
 c = CurrencyConverter()
 
